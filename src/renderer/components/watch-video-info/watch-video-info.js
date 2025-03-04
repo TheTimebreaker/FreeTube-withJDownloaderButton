@@ -3,6 +3,7 @@ import { mapActions } from 'vuex'
 import FtCard from '../ft-card/ft-card.vue'
 import FtIconButton from '../ft-icon-button/ft-icon-button.vue'
 import FtShareButton from '../ft-share-button/ft-share-button.vue'
+import FtJdownloaderButton from '../ft-jdownloader-button/ft-jdownloader-button.vue'
 import FtSubscribeButton from '../FtSubscribeButton/FtSubscribeButton.vue'
 import { formatNumber, openExternalLink, showToast } from '../../helpers/utils'
 
@@ -12,6 +13,7 @@ export default defineComponent({
     'ft-card': FtCard,
     'ft-icon-button': FtIconButton,
     'ft-share-button': FtShareButton,
+    'ft-jdownloader-button': FtJdownloaderButton,
     'ft-subscribe-button': FtSubscribeButton
   },
   props: {
