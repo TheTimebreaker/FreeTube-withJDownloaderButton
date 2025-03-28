@@ -139,6 +139,11 @@
           :playlist-id="playlistId"
           class="option"
         />
+        <ft-jdownloader-button
+          v-if="!hideJdownloaderButton"
+          :id="id"
+          class="option"
+        />
       </div>
     </div>
   </ft-card>
